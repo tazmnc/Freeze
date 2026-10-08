@@ -1,0 +1,15 @@
+name: FreezePlugin
+version: 1.0.0
+main: com.soiichan.freeze.FreezePlugin
+api-version: "1.20"
+author: SoiiChan
+description: Plugin don gian dong bang / go dong bang nguoi choi qua lenh /freeze
+commands:
+  freeze:
+    description: Dong bang hoac go dong bang mot nguoi choi
+    usage: /freeze <ten_nguoi_choi>
+    permission: freeze.use
+permissions:
+  freeze.use:
+    description: Cho phep su dung lenh /freeze
+    default: op
